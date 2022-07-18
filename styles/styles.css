@@ -1,0 +1,35 @@
+p{
+    color:rgb(41, 41, 41);
+    font-size: 60x;
+    font-family: sans-serif
+    
+}
+
+.my-class {
+    color:rgb(65, 65, 66);
+}
+* {
+    color:rgb(104, 94, 94);
+}
+
+img{ 
+    padding: 30px;
+    border:blue;
+    margin: 30px;
+    width: 300px;
+}
+
+figcaption{
+    padding: 1px;
+    border:1px green ;
+    margin: 5px;
+    width:500px;
+}
+
+p{
+    padding: 5px;
+    border:1px green; 
+    margin: 10px;
+    width:1000px;
+}
+
