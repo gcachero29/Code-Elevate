@@ -1,3 +1,23 @@
+.wrapper{
+
+    display:grid;
+    grid: 2px solid orange;
+    grid-template-columns: 200px 100px;
+    grid-auto-columns:200px;
+    gap:10px;
+    border:2px solid orange;
+    border-radius: 5px;
+    background-color: white;
+     
+
+}
+.item{
+    border:2 px salmon
+    border-radius:5px;
+    background-color:red 
+
+}
+
 p{
     color:rgb(41, 41, 41);
     font-size: 60x;
@@ -13,7 +33,7 @@ p{
 }
 
 img{ 
-    padding: 30px;
+    padding: 10px;
     border:blue;
     margin: 30px;
     width: 300px;
@@ -32,4 +52,9 @@ p{
     margin: 10px;
     width:1000px;
 }
+
+a:hover {
+    color:blueviolet;
+}
+
 
