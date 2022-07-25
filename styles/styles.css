@@ -11,6 +11,7 @@
      
 
 }
+
 .item{
     border:2 px salmon
     border-radius:5px;
@@ -34,7 +35,7 @@ p{
 
 img{ 
     padding: 10px;
-    border:blue;
+    border:3px;
     margin: 30px;
     width: 300px;
 }
@@ -56,5 +57,13 @@ p{
 a:hover {
     color:blueviolet;
 }
+
+h1{
+text-align:center;
+border:3px green;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+}
+
+
 
 

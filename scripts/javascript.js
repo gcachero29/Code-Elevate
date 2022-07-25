@@ -244,11 +244,11 @@ switch (ERRAND) {
 
 
   let text; 
-  let person = prompt ("Please enter your name", "JugHead Jones");
+  let person = prompt ("Please enter Character file");
   if(person == null || person == "") {
       text = "User cancelled the prompt";
   } else {
-      text = "Hello" + person + "! How are you today?";
+      text =  person +"." +"file";
   }
       document.getElementById("demo").innerHTML = text;
     }
