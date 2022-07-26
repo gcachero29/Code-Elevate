@@ -278,3 +278,27 @@ for(count = 0; count < 10; count ++){
 }
 console.log("Loop stopped!")
 
+var fruits =["apple", "strawberry","starfruit", "mango","passionfruit", "banana"];
+/*fruits[1];
+console.log(fruits[0] +" is the fist fruit");
+console.log(fruits[1]+ "is the second fruit");
+console.log(fruits[2]+"is the third fruit");
+console.log(fruits[3]+"is the fourth fruit");
+var banana;
+var apple;
+var array= [apple, strawberry]
+*/
+
+var o;
+for (o =0; o < fruits.length; o ++) {
+    console.log(fruits [o])
+}
+
+let text = "<ul>";
+fruits.forEach(fruitFunction)
+text += "</ul>";
+document.getElementById("fruitText").innerHTML =text;
+
+function fruitFunction(value) {
+    text +="<li>" + value + "</li>";
+}
